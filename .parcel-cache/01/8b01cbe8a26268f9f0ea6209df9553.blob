@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="d7c2b8c89e8843c0697300fa104dd24b">
+    <link href="66ecf548b711f5b4069b1d19afb59dc3" rel="stylesheet"> <!--font family "Merriweather Sans"-->
+    <link rel="stylesheet" href="935fa998e6d17c03e587356b23a05c7d"> <!--Main style file-->
+    <script src="47a1e91e9a9d249ef9a8672be180ab3b" defer=""></script> <!--Main JS file-->
+    <title>Livrily (Lakhdar version)</title>
+</head>
+<body>
+     <nav class="nav container">
+         <a href="#" class="logo">
+            <svg width="50" height="50" viewbox="0 0 80 80" fill="none">
+                <rect fill="#FF630C" height="76" width="80" x="-1" y="2"></rect>
+                <path d="M18.4459 21.5563H29.7017V62H18.4459V21.5563ZM34.6124 32.7017H46.4751L52.5169 52.2063L58.1172 32.7017H69.1799L57.5654 64.0139C56.2412 67.5819 54.8894 69.9913 53.51 71.2419C51.5605 73.0075 48.5902 73.8903 44.5992 73.8903C42.9807 73.8903 40.4794 73.6696 37.0953 73.2282L36.2125 65.3933C37.831 65.9083 39.6334 66.1658 41.6197 66.1658C42.9439 66.1658 44.0106 65.8623 44.8199 65.2554C45.6475 64.6484 46.3464 63.5633 46.9165 62L34.6124 32.7017Z" fill="white"></path>
+            </svg>
+         </a>
+     </nav>
+</body>
+</html>

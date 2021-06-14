@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: grey;
+}
+/*# sourceMappingURL=index.HASH_REF_46a201d3cd3ba666dcf4135fd06d861a.css.map */
