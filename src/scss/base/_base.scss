@@ -17,3 +17,7 @@ body {
     line-height: 1.6;
     color: $clr-primary;
 }
+
+svg {
+    filter: drop-shadow(0px 0px 1.5px rgba($clr-primary, 1));
+}

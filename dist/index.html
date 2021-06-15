@@ -11,7 +11,7 @@
     <title>Livrily (Lakhdar version)</title>
 </head>
 <body>
-     <nav class="nav container">
+     <nav class="nav">
          <a href="#" class="logo">
             <svg viewbox="0 0 328 117" fill="none">
                 <path d="M6.00385 31.3223H24.1355V75.5507H52.4336V90H6.00385V31.3223ZM60.1986 31.3223H76.4891V42.4095H60.1986V31.3223ZM60.1986 47.4927H76.4891V90H60.1986V47.4927ZM82.0527 47.4927H99.0235L107.269 74.43L115.794 47.4927H132.245L114.193 90H99.744L82.0527 47.4927ZM137.168 47.4927H152.418V54.4572C153.885 51.4419 155.393 49.3739 156.941 48.2532C158.515 47.1058 160.45 46.5321 162.744 46.5321C165.146 46.5321 167.774 47.2793 170.629 48.7735L165.586 60.381C163.665 59.5805 162.144 59.1802 161.023 59.1802C158.889 59.1802 157.234 60.0608 156.06 61.8219C154.379 64.3035 153.539 68.9465 153.539 75.7509V90H137.168V47.4927ZM174.032 31.3223H190.322V42.4095H174.032V31.3223ZM174.032 47.4927H190.322V90H174.032V47.4927Z" fill="#1C1C28"></path>
@@ -21,10 +21,10 @@
          </a>
 
          <ul class="links_container">
-             <li class="links_list"><a href="#">Qui somme nous?</a></li>
-             <li class="links_list"><a href="#">Comment ça marche?</a></li>
-             <li class="links_list"><a href="#">Nous rejoindre</a></li>
-             <li class="links_list"><a href="#">Nous contacter</a></li>
+             <li class="links_container_list"><a href="#">Qui somme nous?</a></li>
+             <li class="links_container_list"><a href="#">Comment ça marche?</a></li>
+             <li class="links_container_list"><a href="#">Nous rejoindre</a></li>
+             <li class="links_container_list"><a href="#">Nous contacter</a></li>
          </ul>
 
          <div class="nav_right">
@@ -58,17 +58,19 @@
      </nav>
 
      <header>
-        <svg width="328" height="117" viewbox="0 0  328 117" fill="none">
-            <path d="M6.00385 31.3223H24.1355V75.5507H52.4336V90H6.00385V31.3223ZM60.1986 31.3223H76.4891V42.4095H60.1986V31.3223ZM60.1986 47.4927H76.4891V90H60.1986V47.4927ZM82.0527 47.4927H99.0235L107.269 74.43L115.794 47.4927H132.245L114.193 90H99.744L82.0527 47.4927ZM137.168 47.4927H152.418V54.4572C153.885 51.4419 155.393 49.3739 156.941 48.2532C158.515 47.1058 160.45 46.5321 162.744 46.5321C165.146 46.5321 167.774 47.2793 170.629 48.7735L165.586 60.381C163.665 59.5805 162.144 59.1802 161.023 59.1802C158.889 59.1802 157.234 60.0608 156.06 61.8219C154.379 64.3035 153.539 68.9465 153.539 75.7509V90H137.168V47.4927ZM174.032 31.3223H190.322V42.4095H174.032V31.3223ZM174.032 47.4927H190.322V90H174.032V47.4927Z" fill="#1C1C28"></path>
-            <rect x="211.763" y="6.83105" width="116.128" height="109.297" fill="#FF630C"></rect>
-            <path d="M237.74 31.3223H254.07V90H237.74V31.3223ZM261.195 47.4927H278.406L287.171 75.7909L295.296 47.4927H311.347L294.496 92.9219C292.575 98.0985 290.613 101.594 288.612 103.409C285.784 105.97 281.474 107.251 275.684 107.251C273.336 107.251 269.707 106.931 264.797 106.29L263.516 94.9232C265.864 95.6703 268.479 96.0439 271.361 96.0439C273.282 96.0439 274.83 95.6036 276.004 94.723C277.205 93.8425 278.219 92.2681 279.046 90L261.195 47.4927Z" fill="white"></path>
-        </svg>
-
-        <p>
-            <span class="Livri">Livri<span class="ly">ly</span></span> est une solution <span class="innovante">innovante</span> qui donne l'opportunite a notre client de beneficer d'un service de livraison a un <span class="end-p">minimum de prix et delai</span> 
-        </p>
-
-        <a href="#" class="cta">Devenir partenaire</a>
+        <div class="header_content">
+            <svg viewbox="0 0  328 117" fill="none">
+                <path d="M6.00385 31.3223H24.1355V75.5507H52.4336V90H6.00385V31.3223ZM60.1986 31.3223H76.4891V42.4095H60.1986V31.3223ZM60.1986 47.4927H76.4891V90H60.1986V47.4927ZM82.0527 47.4927H99.0235L107.269 74.43L115.794 47.4927H132.245L114.193 90H99.744L82.0527 47.4927ZM137.168 47.4927H152.418V54.4572C153.885 51.4419 155.393 49.3739 156.941 48.2532C158.515 47.1058 160.45 46.5321 162.744 46.5321C165.146 46.5321 167.774 47.2793 170.629 48.7735L165.586 60.381C163.665 59.5805 162.144 59.1802 161.023 59.1802C158.889 59.1802 157.234 60.0608 156.06 61.8219C154.379 64.3035 153.539 68.9465 153.539 75.7509V90H137.168V47.4927ZM174.032 31.3223H190.322V42.4095H174.032V31.3223ZM174.032 47.4927H190.322V90H174.032V47.4927Z" fill="#1C1C28"></path>
+                <rect x="211.763" y="6.83105" width="116.128" height="109.297" fill="#FF630C"></rect>
+                <path d="M237.74 31.3223H254.07V90H237.74V31.3223ZM261.195 47.4927H278.406L287.171 75.7909L295.296 47.4927H311.347L294.496 92.9219C292.575 98.0985 290.613 101.594 288.612 103.409C285.784 105.97 281.474 107.251 275.684 107.251C273.336 107.251 269.707 106.931 264.797 106.29L263.516 94.9232C265.864 95.6703 268.479 96.0439 271.361 96.0439C273.282 96.0439 274.83 95.6036 276.004 94.723C277.205 93.8425 278.219 92.2681 279.046 90L261.195 47.4927Z" fill="white"></path>
+            </svg>
+    
+            <p class="header_content_p">
+                <span class="header_content_p_livri">Livri<span class="header_content_p_livri_ly">ly</span></span> est une solution <span class="header_content_p_innovante">innovante</span> qui donne l'opportunite a notre client de beneficer d'un service de livraison a <span class="header_content_p_end-p">un minimum de prix et delai</span> 
+            </p>
+    
+            <a href="#" class="cta">Devenir partenaire</a>
+        </div>
      </header>
 </body>
 </html>

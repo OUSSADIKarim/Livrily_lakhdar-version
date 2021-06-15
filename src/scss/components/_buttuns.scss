@@ -1,0 +1,18 @@
+.cta {
+    text-decoration: none;
+    color: $clr-tertiary;
+    background-color: $clr-secondary;
+    padding: 0.1em 1em;
+    border-radius: 10px;
+    font-size: clamp(2rem, 0.5897rem + 2.0513vw, 3.5rem);
+    z-index: 2;
+
+    box-shadow: 0px -1px 5px 0.5px $clr-primary;
+
+    transition: all ease-in-out 400ms;
+
+    &:hover, &:focus {
+        background-color: transparent;
+        color: $clr-secondary;
+    }
+}

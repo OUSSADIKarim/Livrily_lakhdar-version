@@ -1,6 +1,27 @@
-.links_list {
+.links_container_list {
     text-align: center;
     a {
         font-size: 1.7rem;
+    }
+}
+
+.header_content_p {
+
+    font-size: clamp(1.5rem, 0.5897rem + 2.0513vw, 3rem);
+
+    &_livri {
+        font-weight: $fw-extra-bold;
+
+        &_ly {
+            color: $clr-secondary;
+        }
+    }
+
+    &_innovante {
+        color: $clr-secondary;
+    }
+
+    &_end-p {
+        font-weight: $fw-extra-bold;
     }
 }

@@ -364,6 +364,32 @@ body {
   font-size: 1.7rem;
 }
 
+.header_content_p {
+  font-size: clamp(1.5rem, 0.5897rem + 2.0513vw, 3rem);
+}
+.header_content_p_livri {
+  font-weight: 800;
+}
+.header_content_p_livri_ly {
+  color: #FF630C;
+}
+.header_content_p_innovante {
+  color: #FF630C;
+}
+.header_content_p_end-p {
+  font-weight: 800;
+}
+
+.cta {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #FF630C;
+  padding: 0.1em 1em;
+  border-radius: 10px;
+  font-size: clamp(2rem, 0.5897rem + 2.0513vw, 3.5rem);
+  z-index: 2;
+}
+
 header {
   width: 100%;
   height: 100vh;
@@ -371,11 +397,43 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+header::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100%;
+  opacity: 0.53;
+}
+header .header_content {
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 5em;
+}
+header .header_content svg {
+  min-width: 200px;
+  width: 30%;
+  z-index: 2;
+}
+header .header_content_p {
+  max-width: 100rem;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.44);
 }
 
 .nav {
