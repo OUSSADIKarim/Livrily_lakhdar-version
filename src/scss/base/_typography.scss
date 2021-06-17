@@ -25,3 +25,50 @@
         font-weight: $fw-extra-bold;
     }
 }
+
+.innovation_content  {
+
+    h2 {
+        color: $clr-secondary;
+        font-size: clamp(2.5rem, 0.5897rem + 2.0513vw, 4rem);
+        font-weight: $fw-bold;  
+    }
+
+    p {
+        font-size: clamp(1.5rem, 0.5897rem + 2.0513vw, 3rem);
+        font-weight: $fw-regular;
+        color: $clr-primary;
+
+        span {
+            font-weight: $fw-extra-bold;
+            color: $clr-secondary;
+        }
+    }
+}
+
+.geo_content {
+    h2 {
+        color: $clr-secondary;
+        font-size: clamp(2.5rem, 0.5897rem + 2.0513vw, 4rem);
+        font-weight: $fw-bold; 
+    }
+
+    p {
+        font-size: clamp(1.5rem, 0.5897rem + 2.0513vw, 3rem);
+        font-weight: $fw-regular;
+        color: $clr-primary;
+        margin-bottom: 2rem ;
+    }
+
+    ul {
+        text-align: center;
+        
+        li {
+            list-style: none;
+            font-size: clamp(1rem, 0.5897rem + 2.0513vw, 2.5rem);
+            font-weight: $fw-regular;
+            color: $clr-primary;
+        }
+    }
+
+}

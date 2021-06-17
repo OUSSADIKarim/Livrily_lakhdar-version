@@ -1,0 +1,26 @@
+.steps_first-step {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+
+    .svg--container {
+        width: 70%;
+        height: 20vh;
+        position: relative;
+        margin-left: 0;
+
+        svg {
+            width: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        video {
+            width: 35%;   
+            position: absolute;
+            top: 21px;
+            left: 7px;
+        }
+    }
+}
