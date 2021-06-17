@@ -72,3 +72,20 @@
     }
 
 }
+
+
+.steps {
+    h2 {
+        color: $clr-secondary;
+        font-size: clamp(2.5rem, 0.5897rem + 2.0513vw, 4rem);
+        font-weight: $fw-bold; 
+        text-align: center;
+    }
+
+    p {
+        font-size: clamp(1.5rem, 0.5897rem + 2.0513vw, 2.5rem);
+        font-weight: $fw-regular;
+        color: $clr-primary;
+        text-align: center;
+    }
+}

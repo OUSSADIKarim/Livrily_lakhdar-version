@@ -1,0 +1,45 @@
+.steps_sixth-step {
+    padding: 0.5rem;
+    position: relative;
+
+    @media (min-width: 600px) {
+        &::before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            background-color: $clr-secondary;
+        }
+    
+        &::after {
+            content: "";
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            top: 20%;
+            left: 80%;
+            background-color: $clr-tertiary;
+        }
+    }
+
+    .svg--container {
+        width: 50%;
+        margin: 0 auto;
+        min-width: 300px;
+        max-width: 550px;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        video {
+            width: 21%;
+            position: absolute;
+            top: 15.5%;
+            left: 2%;   
+        }
+    }
+}
