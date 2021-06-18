@@ -1,0 +1,95 @@
+.form_container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    padding: 2rem;
+    background-color: rgba($clr-tertiary, 0.2);
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("/src/img/bg_large-4246095.webp");
+        z-index: -1;
+        filter: blur(15px);
+    }
+
+    .form {
+        position: relative;
+        width: 80%;
+        background-color: rgba($clr-tertiary, 0.6) ;
+        padding: 5rem;
+
+        @media (min-width: 950px) {
+            width: 50%;
+        }
+        .field {
+            width: 100%;
+            padding: 0.5rem 1rem;
+            outline: none;
+            border: 2px solid $clr-primary;
+            background-color: rgba(230, 230, 230 , 0.6);
+            font-size: clamp(1.5rem, 0.5897rem + 2.0513vw, 3rem);
+            color: $clr-primary;
+            margin-bottom: 2.2rem;
+            transition: 300ms;
+    
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+
+            &:focus {
+                background-color: $clr-tertiary;
+                border: 2px solid $clr-secondary;
+            }
+        }
+
+        textarea {
+            min-height: 15rem;
+        }
+
+        .send {
+            color: $clr-tertiary;
+            background-color: $clr-secondary;
+            padding: 0.1em 1em;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            font-size: clamp(2rem, 0.5897rem + 2.0513vw, 3.5rem);
+            transition: all ease-in-out 400ms;
+    
+            &:hover, &:focus {
+                transform: scale(1.1);
+            }
+        }
+
+        .close {
+            width: 2rem;
+            height: 2rem;
+            position: absolute;
+            top: 2%;
+            right: 2%;
+            cursor: pointer;
+            transition: all 350ms ease-in-out;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+    transform: scale(0);
+    transition: all 250ms ease-in-out;
+}
+
+.show {
+    transform: scale(1);
+}

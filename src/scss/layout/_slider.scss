@@ -1,0 +1,28 @@
+.partners {
+  margin: 3rem auto;
+  width: 100%;
+  max-width: 900px;
+  height: 30vh;
+  position: relative;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 1.8rem;
+  background: $clr-tertiary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

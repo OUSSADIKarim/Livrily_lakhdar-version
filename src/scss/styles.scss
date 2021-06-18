@@ -10,6 +10,7 @@
 @import "base/utilities";
 
 @import "components/buttuns";
+@import "components/hamberger-menu";
 @import "components/nav";
 @import "components/first-step";
 @import "components/second-step";
@@ -18,11 +19,16 @@
 @import "components/fifth-step";
 @import "components/sixth-step";
 @import "components/seventh-step";
+@import "components/form";
 
 @import "layout/header";
 @import "layout/innovation";
 @import "layout/geo";
 @import "layout/steps";
+@import "layout/slider";
 
 @import "pages/home";
 
+:root {
+    --swiper-theme-color: #ff630c;
+}

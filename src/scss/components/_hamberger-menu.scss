@@ -1,0 +1,48 @@
+.hamberger-menu {
+    position: fixed;
+    width: 100%;
+    top: 7%;
+    left: 0%;
+    z-index: 10;
+    transition: all 450ms ease-in-out;
+    transform: scale(0);
+
+    @media (min-width: 600px) {
+        top: 11.2%;
+    }
+
+    @media (min-width: 950px) {
+        display: none;
+    }
+
+    &_container {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+
+        background: rgba($clr-tertiary, 0.8);
+
+        &_list {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: $clr-primary;
+                font-size: 1.7rem;
+                cursor: pointer;    
+                transition: all 250ms ease-in-out;
+
+                &:hover {
+                    color: $clr-secondary;  
+                }
+            }
+        }
+    }
+}
+
+.visible {
+    transform: scale(1);
+
+}
